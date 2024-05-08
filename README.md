@@ -1,6 +1,2 @@
 ```
-npm install
-npm run dev
-```
-
-Head to http://localhost:3000/api
+Northcastle is a frame game inspired by the simple and fun farcastle crypto game.
