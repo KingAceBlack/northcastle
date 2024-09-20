@@ -11,20 +11,8 @@ import { serveStatic } from 'frog/serve-static'
 const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
-  //imageAspectRatio: '1:1',  // Semicolon added here
-  title: 'NorthCastle',
-  // Optional: Supply a Hub to enable frame verification.
+  // Supply a Hub to enable frame verification.
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
-
-  /*hub: {
-    apiUrl: "https://hubs.airstack.xyz",
-    fetchOptions: {
-      headers: {
-        "x-airstack-hubs": "1ed04817ce38544baa09be36b303ba65c",
-      }
-    }
-  }*/
-
 })
 
 
