@@ -8,7 +8,7 @@ import { serveStatic } from 'frog/serve-static'
 
 
 
-export const app = new Frog({
+const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
   //imageAspectRatio: '1:1',  // Semicolon added here
@@ -25,7 +25,7 @@ export const app = new Frog({
     }
   }*/
 
-});
+})
 
 
 
